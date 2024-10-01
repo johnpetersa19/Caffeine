@@ -1,0 +1,47 @@
+#
+# Konstantin Tutsch <mail@konstantintutsch.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 16:11+0200\n"
+"PO-Revision-Date: 2024-10-01 10:55+0200\n"
+"Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 46.1\n"
+
+#: src/application.c:40 data/ui/window.blp:17
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
+msgid "Caffeine"
+msgstr "Koffein"
+
+#: src/application.c:49 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+msgid "Manage your coffee"
+msgstr "Verwalte deinen Kaffee"
+
+#: src/application.c:53
+msgid "translator-credits"
+msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
+
+#: data/ui/window.blp:23
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: data/ui/window.blp:34
+msgid "About Caffeine"
+msgstr "Über Koffein"
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
+msgid ""
+"Caffeine is a management tool for coffee enthusiasts. Find your perfect "
+"coffee recipe!"
+msgstr ""
+"Koffein ist ein Verwaltungstool für Kaffeeenthusiasten. Finde dein perfektes "
+"Kaffeerezept!"

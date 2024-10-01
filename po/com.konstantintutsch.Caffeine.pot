@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.konstantintutsch.Caffeine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.konstantintutsch.Caffeine\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 16:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/application.c:40 data/ui/window.blp:17
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
+msgid "Caffeine"
+msgstr ""
+
+#: src/application.c:49 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+msgid "Manage your coffee"
+msgstr ""
+
+#: src/application.c:53
+msgid "translator-credits"
+msgstr ""
+
+#: data/ui/window.blp:23
+msgid "Main Menu"
+msgstr ""
+
+#: data/ui/window.blp:34
+msgid "About Caffeine"
+msgstr ""
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
+msgid ""
+"Caffeine is a management tool for coffee enthusiasts. Find your perfect "
+"coffee recipe!"
+msgstr ""

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Caffeine
+Icon=@project_id@
+StartupNotify=true
+Exec=@project_exec@
+Categories=System

@@ -1,0 +1,6 @@
+src/main.c
+src/application.c
+src/window.c
+data/ui/window.blp
+data/com.konstantintutsch.Caffeine.desktop.in.in
+data/com.konstantintutsch.Caffeine.metainfo.xml.in.in

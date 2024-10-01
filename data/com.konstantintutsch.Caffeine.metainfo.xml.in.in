@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>@project_id@</id>
+    <metadata_license>CC-BY-SA-4.0</metadata_license>
+    <project_license>MIT</project_license>    
+    <name>Caffeine</name>
+    <summary>Manage your coffee</summary>
+    <description>
+        <p>Caffeine is a management tool for coffee enthusiasts. Find your perfect coffee recipe!</p>
+    </description>
+    <launchable type="desktop-id">@project_id@.desktop</launchable>
+    <categories>
+        <category>System</category>
+    </categories>
+    <content_rating type="oars-1.1" />
+    <url type="homepage">https://github.com/konstantintutsch/Caffeine</url>
+    <url type="vcs-browser">https://github.com/konstantintutsch/Caffeine</url>
+    <url type="bugtracker">https://github.com/konstantintutsch/Caffeine/issues</url>
+    <url type="translate">https://github.com/konstantintutsch/Caffeine/tree/main/po</url>
+    <update_contact>mail@konstantintutsch.com</update_contact>
+    <developer id="com.konstantintutsch">
+        <name translate="no">Konstantin Tutsch</name>
+    </developer>
+    <branding>
+        <color type="primary" scheme_preference="light">#f5c211</color>
+        <color type="primary" scheme_preference="dark">#f5c211</color>
+    </branding>
+    <releases>
+    </releases>
+</component>
