@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  make:
+  flatpak:
     runs-on: ubuntu-24.04
 
     steps:
