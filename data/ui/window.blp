@@ -7,15 +7,15 @@ template $CaffeineWindow : Adw.ApplicationWindow {
     title: _("Caffeine");
     icon-name: "com.konstantintutsch.Caffeine";
 
-    [content]
-    Adw.ToolbarView view {
+    content: Adw.ToolbarView {
 
         [top]
         Adw.HeaderBar header_bar {
 
             [title]
-            Adw.WindowTitle title {
-                title: _("Caffeine");
+            Adw.ViewSwitcher {
+                stack: stack;
+                policy: wide;
             }
 
             [end]
@@ -26,7 +26,29 @@ template $CaffeineWindow : Adw.ApplicationWindow {
                 primary: true;
             }
         }
-    }
+        
+        content: Adw.ViewStack stack {
+            Adw.ViewStackPage {
+                name: "ratio";
+                title: _("Ratio");
+                icon-name: "object-flip-horizontal-symbolic";
+            
+                child: Gtk.Label {
+                    label: _("Ratio");
+                };
+            }
+
+            Adw.ViewStackPage {
+                name: "log";
+                title: _("Log");
+                icon-name: "view-list-symbolic";
+
+                child: Gtk.Label {
+                    label: _("Log");
+                };
+            }
+        };
+    };
 }
 
 menu primary_menu {

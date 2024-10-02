@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-01 16:11+0200\n"
+"POT-Creation-Date: 2024-10-02 10:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/application.c:40 data/ui/window.blp:17
+#: src/application.c:40 data/ui/window.blp:7
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
@@ -31,11 +31,19 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 
-#: data/ui/window.blp:23
+#: data/ui/window.blp:24
 msgid "Main Menu"
 msgstr ""
 
-#: data/ui/window.blp:34
+#: data/ui/window.blp:33 data/ui/window.blp:37
+msgid "Ratio"
+msgstr ""
+
+#: data/ui/window.blp:43 data/ui/window.blp:47
+msgid "Log"
+msgstr ""
+
+#: data/ui/window.blp:57
 msgid "About Caffeine"
 msgstr ""
 
