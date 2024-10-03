@@ -25,6 +25,15 @@
         <color type="primary" scheme_preference="light">#f5c211</color>
         <color type="primary" scheme_preference="dark">#f5c211</color>
     </branding>
+    <recommends>
+        <display_length compare="ge">500</display_length>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>touch</control>
+    </recommends>
+    <requires>
+        <display_length compare="gt">300</display_length>
+    </requires>
     <releases>
     </releases>
 </component>
