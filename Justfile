@@ -11,6 +11,9 @@ release:
 devel:
     flatpak-builder --user --install --force-clean build/devel build-aux/com.konstantintutsch.Caffeine.Devel.yaml 
 
+offline:
+    flatpak-builder --user --install --force-clean --disable-download build/devel build-aux/com.konstantintutsch.Caffeine.Devel.yaml
+
 setup:
     sudo dnf install -y indent
     sudo dnf install -y meson
