@@ -25,6 +25,11 @@
         <color type="primary" scheme_preference="light">#f5c211</color>
         <color type="primary" scheme_preference="dark">#f5c211</color>
     </branding>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://github.com/konstantintutsch/Caffeine/raw/refs/heads/main/data/com.konstantintutsch.Caffeine.Screenshot.Ratio.png</image>
+        </screenshot>
+    </screenshots>
     <recommends>
         <display_length compare="ge">500</display_length>
         <control>pointing</control>
