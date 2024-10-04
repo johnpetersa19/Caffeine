@@ -11,7 +11,8 @@ config_h = configure_file(
 src = files(
   'main.c',
   'application.c',
-  'window.c'
+  'window.c',
+  'ratio.c'
 )
 
 internal_inc = include_directories('.')

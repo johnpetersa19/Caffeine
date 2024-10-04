@@ -4,6 +4,8 @@ using Adw 1;
 template $CaffeineWindow : Adw.ApplicationWindow {
     default-width: 1100;
     default-height: 700;
+    width-request: 300;
+    height-request: 400;
     title: _("Caffeine");
     icon-name: "com.konstantintutsch.Caffeine";
 
@@ -42,8 +44,71 @@ template $CaffeineWindow : Adw.ApplicationWindow {
                 title: _("Ratio");
                 icon-name: "object-flip-horizontal-symbolic";
             
-                child: Gtk.Label {
-                    label: _("Ratio");
+                child: Gtk.Box {
+                    orientation: vertical;
+                    valign: center;
+                    halign: fill;
+                    spacing: 50;
+
+                    Adw.Clamp {
+                        maximum-size: 400;
+                        tightening-threshold: 200;
+                        unit: sp;
+
+                        child: Gtk.Box {
+                            orientation: vertical;
+                            halign: fill;
+                            spacing: 15;
+
+                            Gtk.Box {
+                                orientation: horizontal;
+                                valign: center;
+
+                                Gtk.Label {
+                                    label: _("Weight");
+                                    css-classes: ["heading", "h4"];
+                                }
+                            }
+
+                            Gtk.ListBox {
+                                css-classes: ["boxed-list"];
+
+                                Adw.SpinRow ground_entry {
+                                    title: _("Ground");
+                                    numeric: true;
+
+                                    adjustment: Gtk.Adjustment {
+                                        lower: 1;
+                                        upper: 10000;
+                                        value: 10;
+
+                                        step-increment: 1;
+                                        page-increment: 5;
+                                    };
+                                }
+
+                                Adw.SpinRow extract_entry {
+                                    title: _("Extract");
+                                    numeric: true;
+
+                                    adjustment: Gtk.Adjustment {
+                                        lower: 1;
+                                        upper: 10000;
+                                        value: 18;
+
+                                        step-increment: 1;
+                                        page-increment: 5;
+                                    };
+                                }
+                            }
+                        };
+                    }
+
+                    Gtk.Label ratio_label {
+                        label: _("No data");
+                        selectable: true;
+                        css-classes: ["title", "title-1"];                        
+                    }
                 };
             }
 

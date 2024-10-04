@@ -80,7 +80,7 @@ static void caffeine_application_activate(GApplication *app)
 {
     CaffeineWindow *window;
 
-    window = caffeine_window_new(CAFFEINE_WINDOW(app));
+    window = caffeine_window_new(CAFFEINE_APPLICATION(app));
     gtk_window_present(GTK_WINDOW(window));
 }
 
@@ -100,7 +100,7 @@ static void caffeine_application_open(GApplication *app, GFile **files,
 
     windows = gtk_application_get_windows(GTK_APPLICATION(app));
     if (!windows)
-        window = caffeine_window_new(CAFFEINE_WINDOW(app));
+        window = caffeine_window_new(CAFFEINE_APPLICATION(app));
     window = CAFFEINE_WINDOW(windows->data);
 
     for (int i = 0; i < n_files; i++)
