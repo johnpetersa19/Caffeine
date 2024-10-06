@@ -34,7 +34,7 @@ static void caffeine_application_show_about(GSimpleAction *action,
                         (GTK_APPLICATION(app)));
 
     const char *developers[] = { "Konstantin Tutsch", NULL };
-    const char *designers[] = { "Konstantin Tutsch", NULL };
+    const char *designers[] = { "GNOME Design Team", "Konstantin Tutsch", NULL };
 
     adw_show_about_dialog(GTK_WIDGET(window),
                           "application-name", _("Caffeine"),
