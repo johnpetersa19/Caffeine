@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-06 13:18+0200\n"
+"POT-Creation-Date: 2024-10-06 14:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/application.c:42 data/ui/window.blp:9 data/ui/window.blp:146
-#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
-#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
-msgid "Caffeine"
-msgstr ""
-
-#: src/application.c:51 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+#. Details
+#: src/application.c:46 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Manage your coffee"
 msgstr ""
 
-#: src/application.c:55
+#: src/application.c:57
 msgid "translator-credits"
+msgstr ""
+
+#: src/application.c:60
+msgid "Dependencies"
+msgstr ""
+
+#: data/ui/window.blp:9 data/ui/window.blp:146
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
+msgid "Caffeine"
 msgstr ""
 
 #: data/ui/window.blp:35

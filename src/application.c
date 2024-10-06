@@ -51,9 +51,14 @@ static void caffeine_application_show_about(GSimpleAction *action,
     adw_about_dialog_set_developers(about, developers);
     const char *designers[] =
         { "GNOME Design Team https://welcome.gnome.org/team/design/",
-"Konstantin Tutsch <mail@konstantintutsch.com>", NULL };
+        "Konstantin Tutsch <mail@konstantintutsch.com>", NULL
+    };
     adw_about_dialog_set_designers(about, designers);
     adw_about_dialog_set_translator_credits(about, _("translator-credits"));
+    const char *libraries[] =
+        { "The GNOME Project https://www.gnome.org", NULL };
+    adw_about_dialog_add_acknowledgement_section(about, _("Dependencies"),
+                                                 libraries);
 
     // Legal
     adw_about_dialog_set_copyright(about, "© 2024 Konstantin Tutsch");
