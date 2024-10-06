@@ -6,6 +6,7 @@
 #include <locale.h>
 
 #include "window.h"
+
 #include "config.h"
 
 /**

@@ -22,7 +22,7 @@ template $CaffeineWindow : Adw.ApplicationWindow {
 
         [top]
         Adw.HeaderBar header_bar {
-
+ 
             [title]
             Adw.ViewSwitcher {
                 stack: stack;
@@ -117,8 +117,20 @@ template $CaffeineWindow : Adw.ApplicationWindow {
                 title: _("Log");
                 icon-name: "view-list-symbolic";
 
-                child: Gtk.Label {
-                    label: _("Log");
+                child: Adw.Clamp {
+                    maximum-size: 400;
+                    tightening-threshold: 200;
+                    unit: sp;
+
+                    child: Gtk.Box {
+                        orientation: vertical;
+                        valign: center;
+                        halign: fill;
+
+                        Gtk.ListBox log_listbox {
+                            css-classes: ["boxed-list"];
+                        }
+                    };
                 };
             }
         };

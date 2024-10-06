@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 18:12+0200\n"
-"PO-Revision-Date: 2024-10-04 18:05+0200\n"
+"POT-Creation-Date: 2024-10-06 13:03+0200\n"
+"PO-Revision-Date: 2024-10-06 09:44+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 46.1\n"
+"X-Generator: Gtranslator 47.0\n"
 
-#: src/application.c:40 data/ui/window.blp:9 data/ui/window.blp:134
+#: src/application.c:41 data/ui/window.blp:9 data/ui/window.blp:146
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Koffein"
 
-#: src/application.c:49 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+#: src/application.c:50 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Manage your coffee"
 msgstr "Verwalten Sie Ihren Kaffee"
 
-#: src/application.c:53
+#: src/application.c:54
 msgid "translator-credits"
 msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
 
@@ -50,15 +50,15 @@ msgstr "Pulver"
 msgid "Extract"
 msgstr "Extrakt"
 
-#: data/ui/window.blp:108
+#: data/ui/window.blp:108 data/ui/entry.blp:5 data/ui/entry.blp:6
 msgid "No data"
 msgstr "Keine Daten"
 
-#: data/ui/window.blp:117 data/ui/window.blp:121
+#: data/ui/window.blp:117
 msgid "Log"
 msgstr "Protokoll"
 
-#: data/ui/window.blp:140
+#: data/ui/window.blp:152
 msgid "About Caffeine"
 msgstr "Über Koffein"
 
@@ -69,6 +69,13 @@ msgid ""
 msgstr ""
 "Koffein ist ein Verwaltungstool für Kaffeeenthusiasten. Finden Sie Ihr "
 "perfektes Kaffeerezept!"
+
+#, c-format
+#~ msgid "%.2f became %.2f (1:%.2f) with a rating of %u"
+#~ msgstr "%.2f wurden %.2f (1:%.2f) mit einer Bewertung von %u"
+
+#~ msgid "Rating"
+#~ msgstr "Bewertung"
 
 #~ msgid "Puck"
 #~ msgstr "Puck"

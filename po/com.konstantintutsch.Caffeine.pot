@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 18:12+0200\n"
+"POT-Creation-Date: 2024-10-06 13:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/application.c:40 data/ui/window.blp:9 data/ui/window.blp:134
+#: src/application.c:41 data/ui/window.blp:9 data/ui/window.blp:146
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr ""
 
-#: src/application.c:49 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+#: src/application.c:50 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Manage your coffee"
 msgstr ""
 
-#: src/application.c:53
+#: src/application.c:54
 msgid "translator-credits"
 msgstr ""
 
@@ -51,15 +51,15 @@ msgstr ""
 msgid "Extract"
 msgstr ""
 
-#: data/ui/window.blp:108
+#: data/ui/window.blp:108 data/ui/entry.blp:5 data/ui/entry.blp:6
 msgid "No data"
 msgstr ""
 
-#: data/ui/window.blp:117 data/ui/window.blp:121
+#: data/ui/window.blp:117
 msgid "Log"
 msgstr ""
 
-#: data/ui/window.blp:140
+#: data/ui/window.blp:152
 msgid "About Caffeine"
 msgstr ""
 
