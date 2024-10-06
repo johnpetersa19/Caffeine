@@ -39,6 +39,9 @@ static void caffeine_application_show_about(GSimpleAction *action,
                          (ROOT_RESOURCE(_PROJECT_ID(".metainfo.xml")),
                           "1.0.0"));
 
+    // Show version suffix
+    adw_about_dialog_set_version(about, PROJECT_VERSION);
+
     // Details
     adw_about_dialog_set_comments(about, _("Manage your coffee"));
 
