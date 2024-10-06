@@ -14,6 +14,8 @@
  */
 struct _CaffeineEntry {
     AdwActionRow parent;
+
+    GtkButton *edit_button;
 };
 
 G_DEFINE_TYPE(CaffeineEntry, caffeine_entry, ADW_TYPE_ACTION_ROW);
@@ -41,6 +43,9 @@ static void caffeine_entry_class_init(CaffeineEntryClass *class)
 {
     gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
                                                 UI_RESOURCE("entry.ui"));
+
+    gtk_widget_class_bind_template_child(GTK_WIDGET_CLASS(class), CaffeineEntry,
+                                         edit_button);
 }
 
 /**

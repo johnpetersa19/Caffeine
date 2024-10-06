@@ -4,4 +4,14 @@ using Adw 1;
 template $CaffeineEntry : Adw.ActionRow {
     title: _("No data"); 
     subtitle: _("No data");
+
+    Gtk.Box {
+        orientation: horizontal;
+        valign: center;
+
+        Gtk.Button edit_button {
+            icon-name: "document-edit-symbolic";
+            has-frame: false;
+        }
+    }
 }
