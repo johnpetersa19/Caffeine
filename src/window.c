@@ -15,7 +15,7 @@
 #include "config.h"
 
 /**
- * This class handles all window logic.
+ * An object of this class handles the functionality of a window.
  */
 struct _CaffeineWindow {
     AdwApplicationWindow parent;
@@ -36,12 +36,12 @@ static void caffeine_window_ratio_init(CaffeineWindow * window);
 static void caffeine_window_ratio_update(GtkEditable * self,
                                          CaffeineWindow * window);
 
-static void caffeine_window_log_init(CaffeineWindow *window);
+static void caffeine_window_log_init(CaffeineWindow * window);
 
 /**
  * This function initializes a CaffeineWindow object.
  *
- * @param window CaffeineWindow to be initialized
+ * @param window Window to be initialized
  */
 static void caffeine_window_init(CaffeineWindow *window)
 {
@@ -54,7 +54,7 @@ static void caffeine_window_init(CaffeineWindow *window)
 /**
  * This function initializes the CaffeineWindow class.
  *
- * @param class CaffeineWindowClass to be initialized
+ * @param class Window class to be initialized
  */
 static void caffeine_window_class_init(CaffeineWindowClass *class)
 {
@@ -75,7 +75,7 @@ static void caffeine_window_class_init(CaffeineWindowClass *class)
 /**
  * This function creates a new CaffeineWindow object.
  *
- * @param app CaffeineApplication to create the new CaffeineWindow for
+ * @param app Application to create the new window for
  *
  * @return CaffeineWindow
  */
@@ -98,7 +98,7 @@ void caffeine_window_open(CaffeineWindow *window, GFile *file)
 /**
  * This function initializes the ratio page of a CaffeineWindow.
  *
- * @param window CaffeineWindow to initialize the ratio page of
+ * @param window Window to initialize the ratio page of
  */
 static void caffeine_window_ratio_init(CaffeineWindow *window)
 {
@@ -114,8 +114,8 @@ static void caffeine_window_ratio_init(CaffeineWindow *window)
 /**
  * This function updates ratio data displayed.
  *
- * @param self GtkEditable from which a changed signal was emitted
- * @param window CaffeineWindow from which the signal was emitted
+ * @param self https://docs.gtk.org/gtk4/signal.Editable.changed.html
+ * @param window https://docs.gtk.org/gtk4/signal.Editable.changed.html
  */
 static void caffeine_window_ratio_update(GtkEditable *self,
                                          CaffeineWindow *window)
@@ -152,7 +152,7 @@ static void caffeine_window_ratio_update(GtkEditable *self,
 /**
  * This function initializes the log page of a CaffeineWindow.
  *
- * @param window CaffeineWindow to initialize the log page of
+ * @param window Window to initialize the log page of
  */
 static void caffeine_window_log_init(CaffeineWindow *window)
 {

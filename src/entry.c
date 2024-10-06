@@ -10,7 +10,7 @@
 #include "config.h"
 
 /**
- * This class handles data of an entry in the log.
+ * An object of this class handles the functionality of an entry.
  */
 struct _CaffeineEntry {
     AdwActionRow parent;
@@ -18,12 +18,12 @@ struct _CaffeineEntry {
 
 G_DEFINE_TYPE(CaffeineEntry, caffeine_entry, ADW_TYPE_ACTION_ROW);
 
-static void caffeine_entry_update(CaffeineEntry *entry);
+static void caffeine_entry_update(CaffeineEntry * entry);
 
 /**
  * This function initializes a CaffeineEntry object.
  *
- * @param entry CaffeineEntry to be initialized
+ * @param entry Entry to be initialized
  */
 static void caffeine_entry_init(CaffeineEntry *entry)
 {
@@ -35,11 +35,12 @@ static void caffeine_entry_init(CaffeineEntry *entry)
 /**
  * This function initializes the CaffeineEntry class.
  *
- * @param class CaffeineEntryClass to be initialized
+ * @param class Entry class to be initialized
  */
 static void caffeine_entry_class_init(CaffeineEntryClass *class)
 {
-    gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class), UI_RESOURCE("entry.ui"));
+    gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
+                                                UI_RESOURCE("entry.ui"));
 }
 
 /**
@@ -53,9 +54,9 @@ CaffeineEntry *caffeine_entry_new()
 }
 
 /**
- * This function updates the summary of a CaffeineEntry.
+ * This function updates data of a CaffeineEntry.
  *
- * @param entry CaffeineEntry to update the title of
+ * @param entry Entry to update the data of
  */
 static void caffeine_entry_update(CaffeineEntry *entry)
 {

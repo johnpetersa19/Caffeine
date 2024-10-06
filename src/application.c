@@ -10,7 +10,7 @@
 #include "config.h"
 
 /**
- * This class handles all application logic.
+ * An object of this class handles the functionality of an application.
  */
 struct _CaffeineApplication {
     AdwApplication parent;
@@ -19,11 +19,11 @@ struct _CaffeineApplication {
 G_DEFINE_TYPE(CaffeineApplication, caffeine_application, ADW_TYPE_APPLICATION);
 
 /**
- * This function shows the About Dialogue of an GApplication.
+ * This function shows the about dialog of an application.
  *
- * @param action Action that was activated to call this function
- * @param parameter Parameters passed
- * @param user_data User data passed
+ * @param action https://docs.gtk.org/gio/signal.SimpleAction.activate.html
+ * @param parameter https://docs.gtk.org/gio/signal.SimpleAction.activate.html
+ * @param user_data https://docs.gtk.org/gio/signal.SimpleAction.activate.html
  */
 static void caffeine_application_show_about(GSimpleAction *action,
                                             GVariant *parameter,
@@ -35,7 +35,8 @@ static void caffeine_application_show_about(GSimpleAction *action,
                         (GTK_APPLICATION(app)));
 
     const char *developers[] = { "Konstantin Tutsch", NULL };
-    const char *designers[] = { "GNOME Design Team", "Konstantin Tutsch", NULL };
+    const char *designers[] =
+        { "GNOME Design Team", "Konstantin Tutsch", NULL };
 
     adw_show_about_dialog(GTK_WIDGET(window),
                           "application-name", _("Caffeine"),
@@ -57,7 +58,7 @@ static void caffeine_application_show_about(GSimpleAction *action,
 /**
  * This function initializes a CaffeineApplication object.
  *
- * @param app CaffeineApplication to be initialized
+ * @param app Application to be initialized
  */
 static void caffeine_application_init(CaffeineApplication *app)
 {
@@ -75,7 +76,7 @@ static void caffeine_application_init(CaffeineApplication *app)
 /**
  * This function activates a GApplication object.
  *
- * @param app GApplication to be activated
+ * @param app Application to be activated
  */
 static void caffeine_application_activate(GApplication *app)
 {
@@ -86,12 +87,12 @@ static void caffeine_application_activate(GApplication *app)
 }
 
 /**
- * This function opens a new instance of a GApplication object.
+ * This function opens a new instance of an application object.
  *
- * @param app GApplication to be opened
- * @param files GFiles passed
- * @param n_files Number of GFiles passed
- * @param hint Hint how files from GFiles will be processed
+ * @param app Application to be opened
+ * @param files Files passed
+ * @param n_files Number of files passed
+ * @param hint Hint how files will be processed
  */
 static void caffeine_application_open(GApplication *app, GFile **files,
                                       int n_files, const char *hint)
@@ -113,7 +114,7 @@ static void caffeine_application_open(GApplication *app, GFile **files,
 /**
  * This function initializes a CaffeineApplication class.
  *
- * @param class CaffeineApplicationClass to be initialized
+ * @param class Application class to be initialized
  */
 static void caffeine_application_class_init(CaffeineApplicationClass *class)
 {

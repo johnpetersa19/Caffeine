@@ -10,4 +10,4 @@ G_DECLARE_FINAL_TYPE(CaffeineEntry, caffeine_entry, CAFFEINE, ENTRY,
 
 CaffeineEntry *caffeine_entry_new();
 
-#endif // ENTRY_H
+#endif                          // ENTRY_H
