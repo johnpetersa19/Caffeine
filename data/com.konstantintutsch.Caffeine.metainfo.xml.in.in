@@ -40,5 +40,15 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.0" date="2024-10-06">
+            <description translate="no">
+                <p>This is the first release of Caffeine!</p>
+                <p>Initial features include:</p>
+                <ul>
+                    <li>Ratio calculator</li>
+                    <li>Coffee recipe log</li>
+                </ul>
+            </description>
+        </release>
     </releases>
 </component>

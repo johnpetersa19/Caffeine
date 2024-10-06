@@ -30,29 +30,32 @@ static void caffeine_application_show_about(GSimpleAction *action,
                                             gpointer user_data)
 {
     CaffeineApplication *app = CAFFEINE_APPLICATION(user_data);
-    CaffeineWindow *window =
+    CaffeineWindow *active_window =
         CAFFEINE_WINDOW(gtk_application_get_active_window
                         (GTK_APPLICATION(app)));
 
-    const char *developers[] = { "Konstantin Tutsch", NULL };
-    const char *designers[] =
-        { "GNOME Design Team", "Konstantin Tutsch", NULL };
+    AdwAboutDialog *about =
+        ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
+                         (ROOT_RESOURCE(_PROJECT_ID(".metainfo.xml")),
+                          "1.0.0"));
 
-    adw_show_about_dialog(GTK_WIDGET(window),
-                          "application-name", _("Caffeine"),
-                          "application-icon", PROJECT_ID,
-                          "developer-name", developers[0],
-                          "version", PROJECT_VERSION,
-                          "copyright", "© 2024 Konstantin Tutsch",
-                          "issue-url",
-                          "https://github.com/konstantintutsch/Caffeine/issues",
-                          "license-type", GTK_LICENSE_MIT_X11, "developers",
-                          developers, "comments",
-                          _("Manage your coffee"),
-                          "website",
-                          "https://github.com/konstantintutsch/Caffeine",
-                          "designers", designers, "translator-credits",
-                          _("translator-credits"), NULL);
+    // Details
+    adw_about_dialog_set_comments(about, _("Manage your coffee"));
+
+    // Credits
+    const char *developers[] =
+        { "Konstantin Tutsch <mail@konstantintutsch.com>", NULL };
+    adw_about_dialog_set_developers(about, developers);
+    const char *designers[] =
+        { "GNOME Design Team https://welcome.gnome.org/team/design/",
+"Konstantin Tutsch <mail@konstantintutsch.com>", NULL };
+    adw_about_dialog_set_designers(about, designers);
+    adw_about_dialog_set_translator_credits(about, _("translator-credits"));
+
+    // Legal
+    adw_about_dialog_set_copyright(about, "© 2024 Konstantin Tutsch");
+
+    adw_dialog_present(ADW_DIALOG(about), GTK_WIDGET(active_window));
 }
 
 /**
