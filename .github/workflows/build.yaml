@@ -24,7 +24,7 @@ jobs:
       run: |
         sudo apt-get install libadwaita-1-dev
         sudo flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-        sudo flatpak install --assumeyes org.gnome.Sdk//46 org.gnome.Platform//46
+        sudo flatpak install --assumeyes org.gnome.Sdk//47 org.gnome.Platform//47
 
     - name: Build development profile
       run: just devel
