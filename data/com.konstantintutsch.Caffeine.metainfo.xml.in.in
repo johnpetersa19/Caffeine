@@ -6,8 +6,8 @@
     <name>Caffeine</name>
     <summary>Calculate your coffee</summary>
     <description>
-        <p><em>Caffeine</em> is a utility for coffee enthusiasts. It's sole purpose is to calculate the ratio of a coffee made.</p>
-        <p>For example, an espresso made from <code>10g</code> of coffee ground wheighing <code>18g</code> would have a ratio of <code>1 : 1.8</code>.</p>
+        <p>Caffeine is a utility for coffee enthusiasts. It's sole purpose is to calculate the extraction ratio of a coffee.</p>
+        <p>For example, an espresso brewed from 10g of coffee ground weighing 18g would have an extraction ratio of 1 : 1.8.</p>
     </description>
     <launchable type="desktop-id">@project_id@.desktop</launchable>
     <categories>

@@ -2,9 +2,9 @@
 
 <img align="right" alt="Caffeine Icon" src="data/icons/com.konstantintutsch.Caffeine.svg">
 
-_Caffeine_ is a utility for coffee enthusiasts. It's sole purpose is to calculate the ratio of a coffee made.
+_Caffeine_ is a utility for coffee enthusiasts. It's sole purpose is to calculate the extraction ratio of a coffee.
 
-For example, an espresso made from **10g** of coffee ground wheighing **18g** would have a ratio of **1 : 1.8**.
+For example, an espresso brewed from **10g** of coffee ground weighing **18g** would have an extraction ratio of **1 : 1.8**.
 
 ## Showcase
 
