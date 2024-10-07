@@ -4,6 +4,8 @@
 
 Calculate your coffee
 
+Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your favorite coffee recipe!
+
 ## Showcase
 
 ![Light](data/com.konstantintutsch.Caffeine.Screenshot.Light.png)
