@@ -2,7 +2,6 @@
 #define WINDOW_H
 
 #include <adwaita.h>
-
 #include "application.h"
 
 #define CAFFEINE_TYPE_WINDOW (caffeine_window_get_type())

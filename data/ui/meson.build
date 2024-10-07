@@ -3,8 +3,7 @@
 #
 
 blp = files(
-  'window.blp',
-  'entry.blp'
+  'window.blp'
 )
 
 ui = custom_target(

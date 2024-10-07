@@ -1,12 +1,9 @@
 #include "application.h"
 
 #include <adwaita.h>
-
 #include <glib/gi18n.h>
 #include <locale.h>
-
 #include "window.h"
-
 #include "config.h"
 
 /**
@@ -126,7 +123,7 @@ static void caffeine_application_show_about(GSimpleAction *action,
     adw_about_dialog_set_version(about, PROJECT_VERSION);
 
     // Details
-    adw_about_dialog_set_comments(about, _("Manage your coffee"));
+    adw_about_dialog_set_comments(about, _("Calculate your coffee"));
 
     // Credits
     const char *developers[] =

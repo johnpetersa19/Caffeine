@@ -1,8 +1,6 @@
 #include <adwaita.h>
-
 #include <glib/gi18n.h>
 #include <locale.h>
-
 #include "application.h"
 #include "config.h"
 

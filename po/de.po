@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-06 14:50+0200\n"
-"PO-Revision-Date: 2024-10-06 14:51+0200\n"
+"POT-Creation-Date: 2024-10-07 16:38+0200\n"
+"PO-Revision-Date: 2024-10-07 16:38+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -17,63 +17,65 @@ msgstr ""
 "X-Generator: Gtranslator 47.0\n"
 
 #. Details
-#: src/application.c:46 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
-msgid "Manage your coffee"
-msgstr "Verwalten Sie Ihren Kaffee"
+#: src/application.c:126
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+msgid "Calculate your coffee"
+msgstr "Berechnen Sie Ihren Kaffee"
 
-#: src/application.c:57
+#: src/application.c:137
 msgid "translator-credits"
 msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
 
-#: src/application.c:60
+#: src/application.c:140
 msgid "Dependencies"
 msgstr "Abhängigkeiten"
 
-#: data/ui/window.blp:9 data/ui/window.blp:146
+#: data/ui/window.blp:9 data/ui/window.blp:20
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Koffein"
 
-#: data/ui/window.blp:35
+#: data/ui/window.blp:27
 msgid "Main Menu"
 msgstr "Hauptmenü"
 
-#: data/ui/window.blp:44
-msgid "Ratio"
-msgstr "Verhältnis"
-
-#: data/ui/window.blp:68
+#: data/ui/window.blp:54
 msgid "Weight"
 msgstr "Gewicht"
 
-#: data/ui/window.blp:77
+#: data/ui/window.blp:63
 msgid "Ground"
 msgstr "Pulver"
 
-#: data/ui/window.blp:91
+#: data/ui/window.blp:77
 msgid "Extract"
 msgstr "Extrakt"
 
-#: data/ui/window.blp:108 data/ui/entry.blp:5 data/ui/entry.blp:6
+#: data/ui/window.blp:92
 msgid "No data"
 msgstr "Keine Daten"
 
-#: data/ui/window.blp:117
-msgid "Log"
-msgstr "Protokoll"
-
-#: data/ui/window.blp:152
+#: data/ui/window.blp:105
 msgid "About Caffeine"
 msgstr "Über Koffein"
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
-"Caffeine is a management tool for coffee enthusiasts. Find your perfect "
-"coffee recipe!"
+"Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your "
+"favorite coffee recipe!"
 msgstr ""
-"Koffein ist ein Verwaltungstool für Kaffeeenthusiasten. Finden Sie Ihr "
-"perfektes Kaffeerezept!"
+"Koffein ist ein Tool für Kaffeeenthusiasten. Berechnen Sie das Verhältnis "
+"Ihres perfekten Kaffeerezepts!"
+
+#~ msgid "Manage your coffee"
+#~ msgstr "Verwalten Sie Ihren Kaffee"
+
+#~ msgid "Ratio"
+#~ msgstr "Verhältnis"
+
+#~ msgid "Log"
+#~ msgstr "Protokoll"
 
 #, c-format
 #~ msgid "%.2f became %.2f (1:%.2f) with a rating of %u"

@@ -4,13 +4,13 @@
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>MIT</project_license>    
     <name>Caffeine</name>
-    <summary>Manage your coffee</summary>
+    <summary>Calculate your coffee</summary>
     <description>
-        <p>Caffeine is a management tool for coffee enthusiasts. Find your perfect coffee recipe!</p>
+        <p>Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your favorite coffee recipe!</p>
     </description>
     <launchable type="desktop-id">@project_id@.desktop</launchable>
     <categories>
-        <category>System</category>
+        <category>Utility</category>
     </categories>
     <content_rating type="oars-1.1" />
     <url type="homepage">https://github.com/konstantintutsch/Caffeine</url>
@@ -46,7 +46,6 @@
                 <p>Initial features include:</p>
                 <ul>
                     <li>Ratio calculator</li>
-                    <li>Coffee recipe log</li>
                 </ul>
             </description>
         </release>

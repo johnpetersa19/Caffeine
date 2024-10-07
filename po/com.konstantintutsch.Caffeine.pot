@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-06 14:50+0200\n"
+"POT-Creation-Date: 2024-10-07 16:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,58 +18,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Details
-#: src/application.c:46 data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
-msgid "Manage your coffee"
+#: src/application.c:126
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
+msgid "Calculate your coffee"
 msgstr ""
 
-#: src/application.c:57
+#: src/application.c:137
 msgid "translator-credits"
 msgstr ""
 
-#: src/application.c:60
+#: src/application.c:140
 msgid "Dependencies"
 msgstr ""
 
-#: data/ui/window.blp:9 data/ui/window.blp:146
+#: data/ui/window.blp:9 data/ui/window.blp:20
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr ""
 
-#: data/ui/window.blp:35
+#: data/ui/window.blp:27
 msgid "Main Menu"
 msgstr ""
 
-#: data/ui/window.blp:44
-msgid "Ratio"
-msgstr ""
-
-#: data/ui/window.blp:68
+#: data/ui/window.blp:54
 msgid "Weight"
 msgstr ""
 
-#: data/ui/window.blp:77
+#: data/ui/window.blp:63
 msgid "Ground"
 msgstr ""
 
-#: data/ui/window.blp:91
+#: data/ui/window.blp:77
 msgid "Extract"
 msgstr ""
 
-#: data/ui/window.blp:108 data/ui/entry.blp:5 data/ui/entry.blp:6
+#: data/ui/window.blp:92
 msgid "No data"
 msgstr ""
 
-#: data/ui/window.blp:117
-msgid "Log"
-msgstr ""
-
-#: data/ui/window.blp:152
+#: data/ui/window.blp:105
 msgid "About Caffeine"
 msgstr ""
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
-"Caffeine is a management tool for coffee enthusiasts. Find your perfect "
-"coffee recipe!"
+"Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your "
+"favorite coffee recipe!"
 msgstr ""

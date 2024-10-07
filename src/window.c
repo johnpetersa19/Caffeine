@@ -1,18 +1,13 @@
 #include "window.h"
 
 #include <adwaita.h>
-
 #include <glib/gi18n.h>
 #include <locale.h>
+#include "application.h"
+#include "config.h"
 
 #include <string.h>
-
-#include "application.h"
-#include "entry.h"
-
 #include "ratio.h"
-
-#include "config.h"
 
 /**
  * An object of this class handles the functionality of a window.
@@ -26,8 +21,6 @@ struct _CaffeineWindow {
     double extract;
 
     GtkLabel *ratio_label;
-
-    GtkListBox *log_listbox;
 };
 
 G_DEFINE_TYPE(CaffeineWindow, caffeine_window, ADW_TYPE_APPLICATION_WINDOW);
@@ -35,8 +28,6 @@ G_DEFINE_TYPE(CaffeineWindow, caffeine_window, ADW_TYPE_APPLICATION_WINDOW);
 static void caffeine_window_ratio_init(CaffeineWindow * window);
 static void caffeine_window_ratio_update(GtkEditable * self,
                                          CaffeineWindow * window);
-
-static void caffeine_window_log_init(CaffeineWindow * window);
 
 /**
  * This function initializes a CaffeineWindow object.
@@ -48,7 +39,6 @@ static void caffeine_window_init(CaffeineWindow *window)
     gtk_widget_init_template(GTK_WIDGET(window));
 
     caffeine_window_ratio_init(window);
-    caffeine_window_log_init(window);
 }
 
 /**
@@ -67,9 +57,6 @@ static void caffeine_window_class_init(CaffeineWindowClass *class)
                                          CaffeineWindow, extract_entry);
     gtk_widget_class_bind_template_child(GTK_WIDGET_CLASS(class),
                                          CaffeineWindow, ratio_label);
-
-    gtk_widget_class_bind_template_child(GTK_WIDGET_CLASS(class),
-                                         CaffeineWindow, log_listbox);
 }
 
 /**
@@ -147,14 +134,4 @@ static void caffeine_window_ratio_update(GtkEditable *self,
     gtk_label_set_label(window->ratio_label, ratio_text);
 
     g_free(ratio_text);
-}
-
-/**
- * This function initializes the log page of a CaffeineWindow.
- *
- * @param window Window to initialize the log page of
- */
-static void caffeine_window_log_init(CaffeineWindow *window)
-{
-    gtk_list_box_append(window->log_listbox, GTK_WIDGET(caffeine_entry_new()));
 }
