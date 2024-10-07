@@ -2,62 +2,54 @@ using Gtk 4.0;
 using Adw 1;
 
 template $CaffeineWindow : Adw.ApplicationWindow {
-    default-width: 1100;
-    default-height: 700;
+    default-width: 350;
+    default-height: 400;
     width-request: 300;
-    height-request: 400;
+    height-request: 300;
+    resizable: false;
     title: _("Caffeine");
     icon-name: "com.konstantintutsch.Caffeine";
+
+    Adw.Breakpoint {
+        condition("max-height: 380")
+        setters {
+            content_box.valign: fill;
+        }
+    }
 
     [content]
     Adw.ToolbarView {
 
         [top]
         Adw.HeaderBar header_bar {
+
+            [start]
+            Gtk.Button about_button {
+                css-classes: ["image-button"];
+                icon-name: "help-about-symbolic";
+                tooltip-text: _("About Caffeine");
+            }
  
             [title]
             Adw.WindowTitle {
                 title: _("Caffeine");
             }
-
-
-            [end]
-            Gtk.MenuButton {
-                icon-name: "open-menu-symbolic";
-                tooltip-text: _("Main Menu");
-                menu-model: primary_menu;
-                primary: true;
-            }
         }
         
-        content: Gtk.Box {
-            orientation: vertical;
-            valign: center;
-            halign: fill;
-            spacing: 50;
-
-            Adw.Clamp {
-                maximum-size: 400;
+        content: Adw.ToastOverlay content_toast {
+            child: Adw.Clamp {
+                maximum-size: 300;
                 tightening-threshold: 200;
                 unit: sp;
 
-                child: Gtk.Box {
+                child: Gtk.Box content_box {
                     orientation: vertical;
                     halign: fill;
-                    spacing: 15;
+                    valign: center;
+                    spacing: 40;
 
-                    Gtk.Box {
-                        orientation: horizontal;
-                        valign: center;
-
-                        Gtk.Label {
-                            label: _("Weight");
-                            css-classes: ["heading", "h4"];
-                        }
-                    }
-
-                    Gtk.ListBox {
-                        css-classes: ["boxed-list"];
+                    Adw.PreferencesGroup {
+                        title: _("Weight");
 
                         Adw.SpinRow ground_entry {
                             title: _("Ground");
@@ -88,22 +80,19 @@ template $CaffeineWindow : Adw.ApplicationWindow {
                         }
                     }
 
-                    Gtk.Label ratio_label {
-                        label: _("No data");
-                        selectable: true;
-                        css-classes: ["title", "title-1"];                        
+                    Gtk.Box {
+                        orientation: vertical;
+                        halign: center;
+                        spacing: 10;
+
+                        Gtk.Button ratio_button {
+                            css-classes: ["title-1", "pill"];                        
+                            label: _("No data");
+                            tooltip-text: _("Copy ratio");
+                        }
                     }
                 };
-            }
+            };
         };
-    }
-}
-
-menu primary_menu {
-    section {
-        item {
-            label: _("About Caffeine");
-            action: "app.about";
-        }
     }
 }

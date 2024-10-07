@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 16:38+0200\n"
+"POT-Creation-Date: 2024-10-07 18:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,47 +18,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Details
-#: src/application.c:126
+#: src/application.c:114
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr ""
 
-#: src/application.c:137
+#: src/application.c:125
 msgid "translator-credits"
 msgstr ""
 
-#: src/application.c:140
+#: src/application.c:128
 msgid "Dependencies"
 msgstr ""
 
-#: data/ui/window.blp:9 data/ui/window.blp:20
+#: src/window.c:155
+msgid "Ratio copied"
+msgstr ""
+
+#: data/ui/window.blp:9 data/ui/window.blp:34
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr ""
 
-#: data/ui/window.blp:27
-msgid "Main Menu"
+#: data/ui/window.blp:29
+msgid "About Caffeine"
 msgstr ""
 
-#: data/ui/window.blp:54
+#: data/ui/window.blp:51
 msgid "Weight"
 msgstr ""
 
-#: data/ui/window.blp:63
+#: data/ui/window.blp:54
 msgid "Ground"
 msgstr ""
 
-#: data/ui/window.blp:77
+#: data/ui/window.blp:68
 msgid "Extract"
 msgstr ""
 
-#: data/ui/window.blp:92
+#: data/ui/window.blp:89
 msgid "No data"
 msgstr ""
 
-#: data/ui/window.blp:105
-msgid "About Caffeine"
+#: data/ui/window.blp:90
+msgid "Copy ratio"
 msgstr ""
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9

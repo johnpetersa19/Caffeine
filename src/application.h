@@ -10,4 +10,6 @@ G_DECLARE_FINAL_TYPE(CaffeineApplication, caffeine_application, CAFFEINE,
 
 CaffeineApplication *caffeine_application_new(void);
 
+void caffeine_application_show_about(GtkButton * self, GtkWindow * window);
+
 #endif                          // APPLICATION_H

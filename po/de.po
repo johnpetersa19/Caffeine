@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 16:38+0200\n"
-"PO-Revision-Date: 2024-10-07 16:38+0200\n"
+"POT-Creation-Date: 2024-10-07 18:08+0200\n"
+"PO-Revision-Date: 2024-10-07 18:09+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -17,48 +17,52 @@ msgstr ""
 "X-Generator: Gtranslator 47.0\n"
 
 #. Details
-#: src/application.c:126
+#: src/application.c:114
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr "Berechnen Sie Ihren Kaffee"
 
-#: src/application.c:137
+#: src/application.c:125
 msgid "translator-credits"
 msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
 
-#: src/application.c:140
+#: src/application.c:128
 msgid "Dependencies"
 msgstr "Abhängigkeiten"
 
-#: data/ui/window.blp:9 data/ui/window.blp:20
+#: src/window.c:155
+msgid "Ratio copied"
+msgstr "Verhältnis kopiert"
+
+#: data/ui/window.blp:9 data/ui/window.blp:34
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Koffein"
 
-#: data/ui/window.blp:27
-msgid "Main Menu"
-msgstr "Hauptmenü"
+#: data/ui/window.blp:29
+msgid "About Caffeine"
+msgstr "Über Koffein"
 
-#: data/ui/window.blp:54
+#: data/ui/window.blp:51
 msgid "Weight"
 msgstr "Gewicht"
 
-#: data/ui/window.blp:63
+#: data/ui/window.blp:54
 msgid "Ground"
 msgstr "Pulver"
 
-#: data/ui/window.blp:77
+#: data/ui/window.blp:68
 msgid "Extract"
 msgstr "Extrakt"
 
-#: data/ui/window.blp:92
+#: data/ui/window.blp:89
 msgid "No data"
 msgstr "Keine Daten"
 
-#: data/ui/window.blp:105
-msgid "About Caffeine"
-msgstr "Über Koffein"
+#: data/ui/window.blp:90
+msgid "Copy ratio"
+msgstr "Verhältnis kopieren"
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
@@ -67,6 +71,12 @@ msgid ""
 msgstr ""
 "Koffein ist ein Tool für Kaffeeenthusiasten. Berechnen Sie das Verhältnis "
 "Ihres perfekten Kaffeerezepts!"
+
+#~ msgid "Copied ratio to clipboard"
+#~ msgstr "Verhältnis in die Zwischenablage kopiert"
+
+#~ msgid "Main Menu"
+#~ msgstr "Hauptmenü"
 
 #~ msgid "Manage your coffee"
 #~ msgstr "Verwalten Sie Ihren Kaffee"

@@ -27,11 +27,12 @@
     </branding>
     <screenshots>
         <screenshot type="default">
-            <image>https://github.com/konstantintutsch/Caffeine/raw/refs/heads/main/data/com.konstantintutsch.Caffeine.Screenshot.Ratio.png</image>
+            <image>https://github.com/konstantintutsch/Caffeine/raw/refs/heads/main/data/com.konstantintutsch.Caffeine.Screenshot.Light.png</image>
+            <image>https://github.com/konstantintutsch/Caffeine/raw/refs/heads/main/data/com.konstantintutsch.Caffeine.Screenshot.Dark.png</image>
         </screenshot>
     </screenshots>
     <recommends>
-        <display_length compare="ge">500</display_length>
+        <display_length compare="ge">350</display_length>
         <control>pointing</control>
         <control>keyboard</control>
         <control>touch</control>
@@ -40,13 +41,10 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
-        <release version="1.0.0" date="2024-10-06">
+        <release version="1.0.0" date="2024-10-07">
             <description translate="no">
-                <p>This is the first release of Caffeine!</p>
-                <p>Initial features include:</p>
-                <ul>
-                    <li>Ratio calculator</li>
-                </ul>
+                <p>This is the first release of Caffeine.</p>
+                <p>Calculate your coffee ratio now!</p>
             </description>
         </release>
     </releases>

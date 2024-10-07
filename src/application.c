@@ -15,10 +15,6 @@ struct _CaffeineApplication {
 
 G_DEFINE_TYPE(CaffeineApplication, caffeine_application, ADW_TYPE_APPLICATION);
 
-static void caffeine_application_show_about(GSimpleAction * action,
-                                            GVariant * parameter,
-                                            gpointer user_data);
-
 /**
  * This function initializes a CaffeineApplication object.
  *
@@ -29,12 +25,6 @@ static void caffeine_application_init(CaffeineApplication *app)
     // Register resources
     GResource *resource = g_resource_load(GRESOURCE_FILE, NULL);
     g_resources_register(resource);
-
-    // Add actions
-    g_autoptr(GSimpleAction) about_action = g_simple_action_new("about", NULL);
-    g_signal_connect(about_action, "activate",
-                     G_CALLBACK(caffeine_application_show_about), app);
-    g_action_map_add_action(G_ACTION_MAP(app), G_ACTION(about_action));
 }
 
 /**
@@ -51,12 +41,12 @@ static void caffeine_application_activate(GApplication *app)
 }
 
 /**
- * This function opens a new instance of an application object.
+ * This function opens a new application object.
  *
- * @param app Application to be opened
- * @param files Files passed
- * @param n_files Number of files passed
- * @param hint Hint how files will be processed
+ * @param app https://docs.gtk.org/gio/signal.Application.open.html
+ * @param files https://docs.gtk.org/gio/signal.Application.open.html
+ * @param n_files https://docs.gtk.org/gio/signal.Application.open.html
+ * @param hint https://docs.gtk.org/gio/signal.Application.open.html
  */
 static void caffeine_application_open(GApplication *app, GFile **files,
                                       int n_files, const char *hint)
@@ -68,9 +58,6 @@ static void caffeine_application_open(GApplication *app, GFile **files,
     if (!windows)
         window = caffeine_window_new(CAFFEINE_APPLICATION(app));
     window = CAFFEINE_WINDOW(windows->data);
-
-    for (int i = 0; i < n_files; i++)
-        caffeine_window_open(window, files[i]);
 
     gtk_window_present(GTK_WINDOW(window));
 }
@@ -101,23 +88,15 @@ CaffeineApplication *caffeine_application_new()
 /**
  * This function shows the about dialog of an application.
  *
- * @param action https://docs.gtk.org/gio/signal.SimpleAction.activate.html
- * @param parameter https://docs.gtk.org/gio/signal.SimpleAction.activate.html
- * @param user_data https://docs.gtk.org/gio/signal.SimpleAction.activate.html
+ * @param self https://docs.gtk.org/gtk4/signal.Button.clicked.html
+ * @param window https://docs.gtk.org/gtk4/signal.Button.clicked.html
  */
-static void caffeine_application_show_about(GSimpleAction *action,
-                                            GVariant *parameter,
-                                            gpointer user_data)
+void caffeine_application_show_about(GtkButton *self, GtkWindow *window)
 {
-    CaffeineApplication *app = CAFFEINE_APPLICATION(user_data);
-    CaffeineWindow *active_window =
-        CAFFEINE_WINDOW(gtk_application_get_active_window
-                        (GTK_APPLICATION(app)));
-
-    AdwAboutDialog *about =
-        ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
-                         (ROOT_RESOURCE(_PROJECT_ID(".metainfo.xml")),
-                          "1.0.0"));
+    AdwAboutDialog *about = ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
+                                             (ROOT_RESOURCE
+                                              (_PROJECT_ID(".metainfo.xml")),
+                                              "1.0.0"));
 
     // Show version suffix
     adw_about_dialog_set_version(about, PROJECT_VERSION);
@@ -143,5 +122,5 @@ static void caffeine_application_show_about(GSimpleAction *action,
     // Legal
     adw_about_dialog_set_copyright(about, "© 2024 Konstantin Tutsch");
 
-    adw_dialog_present(ADW_DIALOG(about), GTK_WIDGET(active_window));
+    adw_dialog_present(ADW_DIALOG(about), GTK_WIDGET(window));
 }
