@@ -29,9 +29,11 @@
     <screenshots>
         <screenshot type="default">
             <image>https://github.com/konstantintutsch/Caffeine/raw/refs/heads/main/data/com.konstantintutsch.Caffeine.Screenshot.Light.png</image>
+            <caption>Light Appearance</caption>
         </screenshot>
         <screenshot>
             <image>https://github.com/konstantintutsch/Caffeine/raw/refs/heads/main/data/com.konstantintutsch.Caffeine.Screenshot.Dark.png</image>
+            <caption>Dark Appearance</caption>
         </screenshot>
     </screenshots>
     <recommends>
