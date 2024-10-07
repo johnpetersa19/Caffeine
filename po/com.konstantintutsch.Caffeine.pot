@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 18:08+0200\n"
+"POT-Creation-Date: 2024-10-07 19:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,55 +18,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Details
-#: src/application.c:114
+#: src/application.c:105
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr ""
 
-#: src/application.c:125
+#: src/application.c:116
 msgid "translator-credits"
 msgstr ""
 
-#: src/application.c:128
+#: src/application.c:119
 msgid "Dependencies"
 msgstr ""
 
-#: src/window.c:155
+#: src/window.c:156
 msgid "Ratio copied"
 msgstr ""
 
-#: data/ui/window.blp:9 data/ui/window.blp:34
+#: data/ui/window.blp:10 data/ui/window.blp:35
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr ""
 
-#: data/ui/window.blp:29
+#: data/ui/window.blp:30
 msgid "About Caffeine"
 msgstr ""
 
-#: data/ui/window.blp:51
+#: data/ui/window.blp:52
 msgid "Weight"
 msgstr ""
 
-#: data/ui/window.blp:54
+#: data/ui/window.blp:55
 msgid "Ground"
 msgstr ""
 
-#: data/ui/window.blp:68
+#: data/ui/window.blp:69
 msgid "Extract"
 msgstr ""
 
-#: data/ui/window.blp:89
+#: data/ui/window.blp:90
 msgid "No data"
 msgstr ""
 
-#: data/ui/window.blp:90
+#: data/ui/window.blp:91
 msgid "Copy ratio"
 msgstr ""
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
-"Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your "
-"favorite coffee recipe!"
+"<em>Caffeine</em> is a utility for coffee enthusiasts. It's sole purpose is "
+"to calculate the ratio of a coffee made."
+msgstr ""
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:10
+msgid ""
+"For example, an espresso made from <code>10g</code> of coffee ground "
+"wheighing <code>18g</code> would have a ratio of <code>1 : 1.8</code>."
 msgstr ""

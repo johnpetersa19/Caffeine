@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 18:08+0200\n"
-"PO-Revision-Date: 2024-10-07 18:09+0200\n"
+"POT-Creation-Date: 2024-10-07 19:18+0200\n"
+"PO-Revision-Date: 2024-10-07 19:39+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -17,60 +17,68 @@ msgstr ""
 "X-Generator: Gtranslator 47.0\n"
 
 #. Details
-#: src/application.c:114
+#: src/application.c:105
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr "Berechnen Sie Ihren Kaffee"
 
-#: src/application.c:125
+#: src/application.c:116
 msgid "translator-credits"
 msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
 
-#: src/application.c:128
+#: src/application.c:119
 msgid "Dependencies"
 msgstr "Abhängigkeiten"
 
-#: src/window.c:155
+#: src/window.c:156
 msgid "Ratio copied"
 msgstr "Verhältnis kopiert"
 
-#: data/ui/window.blp:9 data/ui/window.blp:34
+#: data/ui/window.blp:10 data/ui/window.blp:35
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:4
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Koffein"
 
-#: data/ui/window.blp:29
+#: data/ui/window.blp:30
 msgid "About Caffeine"
 msgstr "Über Koffein"
 
-#: data/ui/window.blp:51
+#: data/ui/window.blp:52
 msgid "Weight"
 msgstr "Gewicht"
 
-#: data/ui/window.blp:54
+#: data/ui/window.blp:55
 msgid "Ground"
 msgstr "Pulver"
 
-#: data/ui/window.blp:68
+#: data/ui/window.blp:69
 msgid "Extract"
 msgstr "Extrakt"
 
-#: data/ui/window.blp:89
+#: data/ui/window.blp:90
 msgid "No data"
 msgstr "Keine Daten"
 
-#: data/ui/window.blp:90
+#: data/ui/window.blp:91
 msgid "Copy ratio"
 msgstr "Verhältnis kopieren"
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
-"Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your "
-"favorite coffee recipe!"
+"<em>Caffeine</em> is a utility for coffee enthusiasts. It's sole purpose is "
+"to calculate the ratio of a coffee made."
 msgstr ""
-"Koffein ist ein Tool für Kaffeeenthusiasten. Berechnen Sie das Verhältnis "
-"Ihres perfekten Kaffeerezepts!"
+"<em>Koffein</em> ist ein kleines Programm für Kaffeeenthusiasten. Seine "
+"einzige Aufgabe ist das berechnen des Verhältnisses eines Kaffees."
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:10
+msgid ""
+"For example, an espresso made from <code>10g</code> of coffee ground "
+"wheighing <code>18g</code> would have a ratio of <code>1 : 1.8</code>."
+msgstr ""
+"Zum Beispiel würde ein Espresso aus <code>10g</code> Kaffeepulver der "
+"<code>18g</code> wiegt ein Verhältnis von <code>1 : 1,8</code> haben."
 
 #~ msgid "Copied ratio to clipboard"
 #~ msgstr "Verhältnis in die Zwischenablage kopiert"
