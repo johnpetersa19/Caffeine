@@ -18,53 +18,9 @@ struct _CaffeineApplication {
 
 G_DEFINE_TYPE(CaffeineApplication, caffeine_application, ADW_TYPE_APPLICATION);
 
-/**
- * This function shows the about dialog of an application.
- *
- * @param action https://docs.gtk.org/gio/signal.SimpleAction.activate.html
- * @param parameter https://docs.gtk.org/gio/signal.SimpleAction.activate.html
- * @param user_data https://docs.gtk.org/gio/signal.SimpleAction.activate.html
- */
-static void caffeine_application_show_about(GSimpleAction *action,
-                                            GVariant *parameter,
-                                            gpointer user_data)
-{
-    CaffeineApplication *app = CAFFEINE_APPLICATION(user_data);
-    CaffeineWindow *active_window =
-        CAFFEINE_WINDOW(gtk_application_get_active_window
-                        (GTK_APPLICATION(app)));
-
-    AdwAboutDialog *about =
-        ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
-                         (ROOT_RESOURCE(_PROJECT_ID(".metainfo.xml")),
-                          "1.0.0"));
-
-    // Show version suffix
-    adw_about_dialog_set_version(about, PROJECT_VERSION);
-
-    // Details
-    adw_about_dialog_set_comments(about, _("Manage your coffee"));
-
-    // Credits
-    const char *developers[] =
-        { "Konstantin Tutsch <mail@konstantintutsch.com>", NULL };
-    adw_about_dialog_set_developers(about, developers);
-    const char *designers[] =
-        { "GNOME Design Team https://welcome.gnome.org/team/design/",
-        "Konstantin Tutsch <mail@konstantintutsch.com>", NULL
-    };
-    adw_about_dialog_set_designers(about, designers);
-    adw_about_dialog_set_translator_credits(about, _("translator-credits"));
-    const char *libraries[] =
-        { "The GNOME Project https://www.gnome.org", NULL };
-    adw_about_dialog_add_acknowledgement_section(about, _("Dependencies"),
-                                                 libraries);
-
-    // Legal
-    adw_about_dialog_set_copyright(about, "© 2024 Konstantin Tutsch");
-
-    adw_dialog_present(ADW_DIALOG(about), GTK_WIDGET(active_window));
-}
+static void caffeine_application_show_about(GSimpleAction * action,
+                                            GVariant * parameter,
+                                            gpointer user_data);
 
 /**
  * This function initializes a CaffeineApplication object.
@@ -143,4 +99,52 @@ CaffeineApplication *caffeine_application_new()
     return g_object_new(CAFFEINE_TYPE_APPLICATION, "application-id", PROJECT_ID,
                         G_APPLICATION_DEFAULT_FLAGS, G_APPLICATION_HANDLES_OPEN,
                         NULL);
+}
+
+/**
+ * This function shows the about dialog of an application.
+ *
+ * @param action https://docs.gtk.org/gio/signal.SimpleAction.activate.html
+ * @param parameter https://docs.gtk.org/gio/signal.SimpleAction.activate.html
+ * @param user_data https://docs.gtk.org/gio/signal.SimpleAction.activate.html
+ */
+static void caffeine_application_show_about(GSimpleAction *action,
+                                            GVariant *parameter,
+                                            gpointer user_data)
+{
+    CaffeineApplication *app = CAFFEINE_APPLICATION(user_data);
+    CaffeineWindow *active_window =
+        CAFFEINE_WINDOW(gtk_application_get_active_window
+                        (GTK_APPLICATION(app)));
+
+    AdwAboutDialog *about =
+        ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
+                         (ROOT_RESOURCE(_PROJECT_ID(".metainfo.xml")),
+                          "1.0.0"));
+
+    // Show version suffix
+    adw_about_dialog_set_version(about, PROJECT_VERSION);
+
+    // Details
+    adw_about_dialog_set_comments(about, _("Manage your coffee"));
+
+    // Credits
+    const char *developers[] =
+        { "Konstantin Tutsch <mail@konstantintutsch.com>", NULL };
+    adw_about_dialog_set_developers(about, developers);
+    const char *designers[] =
+        { "GNOME Design Team https://welcome.gnome.org/team/design/",
+        "Konstantin Tutsch <mail@konstantintutsch.com>", NULL
+    };
+    adw_about_dialog_set_designers(about, designers);
+    adw_about_dialog_set_translator_credits(about, _("translator-credits"));
+    const char *libraries[] =
+        { "The GNOME Project https://www.gnome.org", NULL };
+    adw_about_dialog_add_acknowledgement_section(about, _("Dependencies"),
+                                                 libraries);
+
+    // Legal
+    adw_about_dialog_set_copyright(about, "© 2024 Konstantin Tutsch");
+
+    adw_dialog_present(ADW_DIALOG(about), GTK_WIDGET(active_window));
 }
