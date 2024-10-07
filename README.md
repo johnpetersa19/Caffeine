@@ -2,9 +2,9 @@
 
 <img align="right" alt="Caffeine Icon" src="data/icons/com.konstantintutsch.Caffeine.svg">
 
-Calculate your coffee
+_Caffeine_ is a utility for coffee enthusiasts. It's sole purpose is to calculate the ratio of a coffee made.
 
-Caffeine is a utility for coffee enthusiasts. Calculate the ratio of your favorite coffee recipe!
+For example, an espresso made from **10g** of coffee ground wheighing **18g** would have a ratio of **1 : 1.8**.
 
 ## Showcase
 
