@@ -10,7 +10,7 @@
 #include "ratio.h"
 
 /**
- * An object of this class handles the functionality of a window.
+ * This structure handles data of a window.
  */
 struct _CaffeineWindow {
     AdwApplicationWindow parent;
@@ -34,7 +34,7 @@ static void caffeine_window_ratio_copy(GtkButton * self,
                                        CaffeineWindow * window);
 
 /**
- * This function initializes a CaffeineWindow object.
+ * This function initializes a CaffeineWindow.
  *
  * @param window Window to be initialized
  */
@@ -59,7 +59,7 @@ static void caffeine_window_init(CaffeineWindow *window)
 }
 
 /**
- * This function initializes the CaffeineWindow class.
+ * This function initializes a CaffeineWindow class.
  *
  * @param class Window class to be initialized
  */
@@ -82,7 +82,7 @@ static void caffeine_window_class_init(CaffeineWindowClass *class)
 }
 
 /**
- * This function creates a new CaffeineWindow object.
+ * This function creates a new CaffeineWindow.
  *
  * @param app Application to create the new window for
  *
@@ -95,7 +95,7 @@ CaffeineWindow *caffeine_window_new(CaffeineApplication *app)
 }
 
 /**
- * This function opens a CaffeineWindow window.
+ * This function opens a CaffeineWindow.
  *
  * @param window Window to be opened
  * @param file File to be processed with the window

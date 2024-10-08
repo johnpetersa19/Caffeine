@@ -7,7 +7,7 @@
 #include "config.h"
 
 /**
- * An object of this class handles the functionality of an application.
+ * This structure handles data of an application.
  */
 struct _CaffeineApplication {
     AdwApplication parent;
@@ -16,7 +16,7 @@ struct _CaffeineApplication {
 G_DEFINE_TYPE(CaffeineApplication, caffeine_application, ADW_TYPE_APPLICATION);
 
 /**
- * This function initializes a CaffeineApplication object.
+ * This function initializes a CaffeineApplication.
  *
  * @param app Application to be initialized
  */
@@ -28,7 +28,7 @@ static void caffeine_application_init(CaffeineApplication *app)
 }
 
 /**
- * This function activates a GApplication object.
+ * This function activates a CaffeineApplication.
  *
  * @param app Application to be activated
  */
@@ -41,7 +41,7 @@ static void caffeine_application_activate(GApplication *app)
 }
 
 /**
- * This function opens a new application object.
+ * This function opens a new CaffeineApplication.
  *
  * @param app https://docs.gtk.org/gio/signal.Application.open.html
  * @param files https://docs.gtk.org/gio/signal.Application.open.html
