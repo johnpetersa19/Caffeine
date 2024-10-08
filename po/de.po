@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 19:45+0200\n"
-"PO-Revision-Date: 2024-10-07 19:46+0200\n"
+"POT-Creation-Date: 2024-10-08 21:28+0200\n"
+"PO-Revision-Date: 2024-10-08 21:28+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -79,6 +79,14 @@ msgid ""
 msgstr ""
 "Zum Beispiel würde ein Espresso, gebrüht aus 10g Kaffeepulver, der 18g "
 "wiegt, ein Extraktionsverhältnis von 1 : 1,8 haben."
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:32
+msgid "Light Appearance"
+msgstr "Helles Erscheinungsbild"
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:36
+msgid "Dark Appearance"
+msgstr "Dunkles Erscheinungsbild"
 
 #~ msgid "Copied ratio to clipboard"
 #~ msgstr "Verhältnis in die Zwischenablage kopiert"

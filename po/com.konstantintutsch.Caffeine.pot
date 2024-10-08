@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-07 19:45+0200\n"
+"POT-Creation-Date: 2024-10-08 21:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,4 +75,12 @@ msgstr ""
 msgid ""
 "For example, an espresso brewed from 10g of coffee ground weighing 18g would "
 "have an extraction ratio of 1 : 1.8."
+msgstr ""
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:32
+msgid "Light Appearance"
+msgstr ""
+
+#: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:36
+msgid "Dark Appearance"
 msgstr ""
