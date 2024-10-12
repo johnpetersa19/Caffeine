@@ -11,8 +11,9 @@ release:
 devel:
     flatpak-builder --user --install --force-clean build/devel build-aux/com.konstantintutsch.Caffeine.Devel.yaml 
 
-offline:
+test:
     flatpak-builder --user --install --force-clean --disable-download build/devel build-aux/com.konstantintutsch.Caffeine.Devel.yaml
+    GTK_DEBUG=interactive flatpak run com.konstantintutsch.Caffeine.Devel
 
 setup:
     sudo dnf install -y indent
