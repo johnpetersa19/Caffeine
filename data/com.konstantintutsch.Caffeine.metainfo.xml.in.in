@@ -46,6 +46,14 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.1" date="2024-10-15">
+            <description translate="no">
+                <p>Maintenance release</p>
+                <ul>
+                    <li>Update German translation</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.0.0" date="2024-10-07">
             <description translate="no">
                 <p>This is the first release of Caffeine.</p>
