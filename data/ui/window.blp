@@ -2,11 +2,11 @@ using Gtk 4.0;
 using Adw 1;
 
 template $CaffeineWindow : Adw.ApplicationWindow {
-    default-width: 350;
+    default-width: 360;
     default-height: 400;
-    width-request: 300;
-    height-request: 300;
-    resizable: false;
+    width-request: 360;
+    height-request: 360;
+
     title: _("Caffeine");
     icon-name: "com.konstantintutsch.Caffeine";
 
@@ -25,7 +25,7 @@ template $CaffeineWindow : Adw.ApplicationWindow {
 
             [start]
             Gtk.Button about_button {
-                css-classes: ["image-button"];
+                styles ["image-button"]
                 icon-name: "help-about-symbolic";
                 tooltip-text: _("About Caffeine");
             }
@@ -86,7 +86,7 @@ template $CaffeineWindow : Adw.ApplicationWindow {
                         spacing: 10;
 
                         Gtk.Button ratio_button {
-                            css-classes: ["title-1", "pill"];                        
+                            styles ["title-1", "pill"]
                             label: _("No data");
                             tooltip-text: _("Copy ratio");
                         }
