@@ -46,6 +46,14 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.2" date="2024-10-15">
+            <description translate="no">
+                <ul>
+                    <li>Add Italian translation</li>
+                    <li>About dialog is now rendered properly</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.0.1" date="2024-10-15">
             <description translate="no">
                 <p>Maintenance release</p>
