@@ -96,10 +96,10 @@ void caffeine_application_show_about(GtkButton *self, GtkWindow *window)
     AdwAboutDialog *about = ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
                                              (ROOT_RESOURCE
                                               (_PROJECT_ID(".metainfo.xml")),
-                                              "1.0.1"));
+                                              PROJECT_VERSION));
 
     // Show version suffix
-    adw_about_dialog_set_version(about, PROJECT_VERSION);
+    adw_about_dialog_set_version(about, PROJECT_BUILD);
 
     // Details
     adw_about_dialog_set_comments(about, _("Calculate your coffee"));
