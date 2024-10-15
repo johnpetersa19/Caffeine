@@ -1,4 +1,5 @@
 *~
+com.*.json
 /build
 /subprojects/blueprint-compiler
 /.flatpak-builder
