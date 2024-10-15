@@ -5,6 +5,10 @@ default:
 format:
     indent src/*.c src/*.h -linux -nut -i4
 
+translate:
+    meson compile -C ./build com.konstantintutsch.Caffeine-pot
+    meson compile -C ./build com.konstantintutsch.Caffeine-update-po
+
 release:
     flatpak-builder --user --install --force-clean build/release build-aux/com.konstantintutsch.Caffeine.yaml 
 
