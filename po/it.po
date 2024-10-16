@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 09:43+0200\n"
+"POT-Creation-Date: 2024-10-16 12:35+0200\n"
 "PO-Revision-Date: 2024-10-15 19:48+0100\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -63,6 +63,10 @@ msgstr "Nessun dato"
 #: data/ui/window.blp:91
 msgid "Copy ratio"
 msgstr "Copia rapporto"
+
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:9
+msgid "coffee;recipe;ratio;"
+msgstr ""
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""

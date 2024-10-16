@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 09:43+0200\n"
-"PO-Revision-Date: 2024-10-08 21:28+0200\n"
+"POT-Creation-Date: 2024-10-16 12:35+0200\n"
+"PO-Revision-Date: 2024-10-16 12:35+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -63,6 +63,10 @@ msgstr "Keine Daten"
 #: data/ui/window.blp:91
 msgid "Copy ratio"
 msgstr "Verhältnis kopieren"
+
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:9
+msgid "coffee;recipe;ratio;"
+msgstr "kaffee;rezept;verhältnis;"
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
