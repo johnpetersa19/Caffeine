@@ -46,6 +46,14 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.3" date="2024-10-16">
+            <description translate="no">
+                <ul>
+                    <li>Fix memory management (internal)</li>
+                    <li>Add application keywords</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.0.2" date="2024-10-15">
             <description translate="no">
                 <ul>
