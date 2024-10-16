@@ -140,7 +140,12 @@ static void caffeine_window_ratio_update(GtkEditable *self,
 
     gtk_button_set_label(window->ratio_button, ratio_text);
 
+    /* Cleanup */
     g_free(ratio_text);
+    ratio_text = NULL;
+
+    ground_entry = NULL;
+    extract_entry = NULL;
 }
 
 /**

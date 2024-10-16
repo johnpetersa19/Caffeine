@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-15 21:58+0200\n"
+"POT-Creation-Date: 2024-10-16 09:43+0200\n"
 "PO-Revision-Date: 2024-10-08 21:28+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
@@ -30,7 +30,7 @@ msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
 msgid "Dependencies"
 msgstr "Abhängigkeiten"
 
-#: src/window.c:156
+#: src/window.c:161
 msgid "Ratio copied"
 msgstr "Verhältnis kopiert"
 
