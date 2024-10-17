@@ -46,6 +46,13 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.4" date="2024-10-17">
+            <description translate="no">
+                <ul>
+                    <li>New translation available: Norwegian Bokmål</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.0.3" date="2024-10-16">
             <description translate="no">
                 <ul>
