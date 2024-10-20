@@ -14,7 +14,7 @@
         <category>Utility</category>
     </categories>
     <content_rating type="oars-1.1" />
-    <url type="homepage">https://github.com/konstantintutsch/Caffeine</url>
+    <url type="homepage">https://konstantintutsch.com/Caffeine</url>
     <url type="vcs-browser">https://github.com/konstantintutsch/Caffeine</url>
     <url type="bugtracker">https://github.com/konstantintutsch/Caffeine/issues</url>
     <url type="translate">https://github.com/konstantintutsch/Caffeine/tree/main/po</url>
@@ -46,6 +46,7 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        </release>
         <release version="1.0.4" date="2024-10-17">
             <description translate="no">
                 <ul>
