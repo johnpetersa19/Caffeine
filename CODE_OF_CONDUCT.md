@@ -1,29 +1,31 @@
 # Code of Conduct
 
-Rules and consequences for behavior within the project community.
+This document outlines the requirements for behavior within the community of the _Caffeine_ project, along with consequences for violations.
 
-## Goals
+## Principles
 
-There is simple rule of thumb for interactions within this community: be respectful.
+At the heart of this project and its community lies a simple principle: **be respectful**.
 
-We all have different opinions and beliefs. We all disagree with others sometimes. But that does not mean that we have to be impolite towards each other.
+The project acknowledges that diverse opinions and beliefs exist. Disagreements naturally arise, but it is crucial to engage in a constructive manner.
 
-Fundamental rules for interactions:
+### Fundamental Rules
 
-- Be respectful
-- Do not insult
-- Do not get personal
-- Do not spread false information
-- Do not endorse violence
+The following requirements are not optional:
 
-You also have to behave legally, according to the law of your country and the law in Germany.
+- Be Respectful: Treat others with respect and thoughtfulness.
+- Do Not Insult: Offensive interactions will not be tolerated.
+- Do Not Spread False Information: Lies, conspiracy theories and else are strictly prohibited.
+
+### Legal Compliance
+
+Compliance with the laws applicable in the members' respective countries as well as to the laws applicable in Germany is obligatory.
 
 ## Enforcement
 
-Breaking the Code of Conduct will result in an exclusion from the project.
+Violations of this Code of Conduct will lead to temporary or permanent exclusion from the project, depending on the severity of the behavior.
 
-## Reporting
+## Reporting Violations
 
-Please report violations to the project's maintainer[^1].
+If you witness or experience any violations, please report them directly to the project's maintainer[^1].
 
-[^1]: [Contact Options](https://konstantintutsch.com/#contact)
+[^1]: [Contact options](https://konstantintutsch.com/#contact) of the maintainer
