@@ -46,6 +46,12 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.5" date="2024-10-20">
+            <description translate="no">
+                <ul>
+                    <li>Landing page for Caffeine is now available!</li>
+                </ul>
+            </description>
         </release>
         <release version="1.0.4" date="2024-10-17">
             <description translate="no">

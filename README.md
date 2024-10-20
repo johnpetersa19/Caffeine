@@ -2,6 +2,8 @@
 
 <img align="right" alt="Caffeine Icon" src="data/icons/com.konstantintutsch.Caffeine.svg">
 
+Calculate your coffee
+
 _Caffeine_ is a utility for coffee enthusiasts. It's sole purpose is to calculate the extraction ratio of a coffee.
 
 For example, an espresso brewed from **10g** of coffee ground weighing **18g** would have an extraction ratio of **1 : 1.8**.
