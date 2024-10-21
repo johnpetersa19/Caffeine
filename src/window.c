@@ -103,6 +103,8 @@ CaffeineWindow *caffeine_window_new(CaffeineApplication *app)
 
 void caffeine_window_open(CaffeineWindow *window, GFile *file)
 {
+    (void)window;
+    (void)file;
 }
 
 /**

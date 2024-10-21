@@ -22,6 +22,8 @@ G_DEFINE_TYPE(CaffeineApplication, caffeine_application, ADW_TYPE_APPLICATION);
  */
 static void caffeine_application_init(CaffeineApplication *app)
 {
+    (void)app;
+
     // Register resources
     GResource *resource = g_resource_load(GRESOURCE_FILE, NULL);
     g_resources_register(resource);
@@ -51,6 +53,10 @@ static void caffeine_application_activate(GApplication *app)
 static void caffeine_application_open(GApplication *app, GFile **files,
                                       int n_files, const char *hint)
 {
+    (void)files;
+    (void)n_files;
+    (void)hint;
+
     GList *windows;
     CaffeineWindow *window;
 
@@ -93,6 +99,8 @@ CaffeineApplication *caffeine_application_new()
  */
 void caffeine_application_show_about(GtkButton *self, GtkWindow *window)
 {
+    (void)self;
+
     AdwAboutDialog *about = ADW_ABOUT_DIALOG(adw_about_dialog_new_from_appdata
                                              (ROOT_RESOURCE
                                               (_PROJECT_ID(".metainfo.xml")),
