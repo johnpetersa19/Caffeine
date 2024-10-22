@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 12:35+0200\n"
-"PO-Revision-Date: 2024-10-22 22:37+0200\n"
+"PO-Revision-Date: 2024-10-23 00:07+0200\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: src/application.c:105
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
-msgstr "Изчислете вашето кафето"
+msgstr "Изчислете вашето кафе"
 
 #: src/application.c:116
 msgid "translator-credits"
