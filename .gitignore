@@ -1,8 +1,5 @@
 *~
 .xdp-*
-/build
 /subprojects/blueprint-compiler
 /.flatpak-builder
-/builddir
-/repo
-/bundle.flatpak
+/_*
