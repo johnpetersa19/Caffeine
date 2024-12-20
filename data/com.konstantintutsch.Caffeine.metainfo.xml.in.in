@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id>@project_id@</id>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
-    <project_license>MIT</project_license>    
+    <project_license>MIT</project_license>
     <name>Caffeine</name>
     <summary>Calculate your coffee</summary>
     <description>
@@ -46,6 +46,13 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.6" date="2024-12-20">
+            <description translate="no">
+                <ul>
+                    <li>Turkish translation updated</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.0.5+3" date="2024-10-26">
             <description translate="no">
                 <ul>
