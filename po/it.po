@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 12:35+0200\n"
-"PO-Revision-Date: 2024-10-15 19:48+0100\n"
+"PO-Revision-Date: 2024-12-21 09:48+0100\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
 "Language: it\n"
@@ -66,7 +66,7 @@ msgstr "Copia rapporto"
 
 #: data/com.konstantintutsch.Caffeine.desktop.in.in:9
 msgid "coffee;recipe;ratio;"
-msgstr ""
+msgstr "caffè;ricetta;rapporto;"
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""
@@ -86,7 +86,7 @@ msgstr ""
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:32
 msgid "Light Appearance"
-msgstr "Aspetto scuro"
+msgstr "Aspetto chiaro"
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:36
 msgid "Dark Appearance"
