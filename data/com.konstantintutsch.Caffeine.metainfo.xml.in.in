@@ -46,6 +46,14 @@
         <display_length compare="gt">300</display_length>
     </requires>
     <releases>
+        <release version="1.0.7" date="2025-02-04">
+            <description translate="no">
+                <ul>
+                    <li>Italian translation updated</li>
+                    <li>Brazilian Portuguese translation added</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.0.6" date="2024-12-20">
             <description translate="no">
                 <ul>
