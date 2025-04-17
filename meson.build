@@ -70,8 +70,8 @@ conf.set('ui_resource', ui_resource)
 i18n = import('i18n')
 gnome = import('gnome')
 
-gtk_dep = dependency('gtk4')
-adwaita_dep = dependency('libadwaita-1', version: '>=1.4')
+gtk_dep = dependency('gtk4', version: '>=4.18')
+adwaita_dep = dependency('libadwaita-1', version: '>=1.7')
 
 #
 # Subdirectories

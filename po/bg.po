@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 12:35+0200\n"
+"POT-Creation-Date: 2025-04-17 11:38+0200\n"
 "PO-Revision-Date: 2024-10-23 00:07+0200\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
@@ -20,25 +20,25 @@ msgstr ""
 "X-Generator: Gtranslator 46.1\n"
 
 #. Details
-#: src/application.c:105
+#: src/application.c:113
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr "Изчислете вашето кафе"
 
-#: src/application.c:116
+#: src/application.c:124
 msgid "translator-credits"
 msgstr "twlvnn kraftwerk <kraft_werk@tutanota.com>"
 
-#: src/application.c:119
+#: src/application.c:127
 msgid "Dependencies"
 msgstr "Зависимости"
 
-#: src/window.c:161
+#: src/window.c:163
 msgid "Ratio copied"
 msgstr "Съотношението е копирано"
 
 #: data/ui/window.blp:10 data/ui/window.blp:35
-#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:3
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Кофеин"
@@ -67,7 +67,7 @@ msgstr "Няма данни"
 msgid "Copy ratio"
 msgstr "Копиране на съотношение"
 
-#: data/com.konstantintutsch.Caffeine.desktop.in.in:9
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:8
 msgid "coffee;recipe;ratio;"
 msgstr "кафе;рецепта;съотношение;"
 

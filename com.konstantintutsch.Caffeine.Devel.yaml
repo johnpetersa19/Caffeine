@@ -1,11 +1,11 @@
 id: com.konstantintutsch.Caffeine.Devel
 runtime: org.gnome.Platform
-runtime-version: '47'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 command: com.konstantintutsch.Caffeine.Devel
 finish-args:
   - --device=dri
-  - --share=ipc  
+  - --share=ipc
   - --socket=wayland
   - --socket=fallback-x11
 cleanup:
@@ -19,8 +19,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/jwestman/blueprint-compiler.git
-        tag: v0.14.0
-        commit: 8e10fcf8692108b9d4ab78f41086c5d7773ef864
+        tag: v0.16.0
     cleanup:
       - '*'
   - name: Caffeine
