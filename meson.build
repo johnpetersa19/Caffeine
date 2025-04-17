@@ -5,7 +5,7 @@
 project(
      'Caffeine',
             'c',
-        version: '1.0.7',
+        version: '1.1.0',
         license: 'MIT',
   meson_version: '>= 1.3'
 )
