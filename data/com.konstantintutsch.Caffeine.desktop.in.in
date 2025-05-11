@@ -4,5 +4,5 @@ Name=Caffeine
 Icon=@project_id@
 StartupNotify=true
 Exec=@project_exec@
-Categories=Utility;Calculator;GNOME;
+Categories=Utility;Calculator;GNOME;GTK;
 Keywords=coffee;recipe;ratio;
