@@ -1,17 +1,25 @@
-# Caffeine [<img align="right" alt="Build Status" src="https://github.com/konstantintutsch/Caffeine/actions/workflows/build.yaml/badge.svg">](https://github.com/konstantintutsch/Caffeine/actions/workflows/build.yaml)
+# Caffeine  
+[![Build Status](https://github.com/konstantintutsch/Caffeine/actions/workflows/build.yaml/badge.svg)](https://github.com/konstantintutsch/Caffeine/actions/workflows/build.yaml)
 
-<img align="right" alt="Caffeine Icon" src="data/icons/com.konstantintutsch.Caffeine.svg">
+<img align="right" width="96" alt="Caffeine Icon" src="data/icons/com.konstantintutsch.Caffeine.svg">
 
-Calculate your coffee
+**Caffeine** is a utility for coffee enthusiasts. Its sole purpose is to calculate the **extraction ratio** of a coffee brew.
 
-_Caffeine_ is a utility for coffee enthusiasts. It's sole purpose is to calculate the extraction ratio of a coffee.
+For example:  
+An espresso brewed from **10g** of ground coffee weighing **18g** would have an extraction ratio of **1 : 1.8**.
 
-For example, an espresso brewed from **10g** of coffee ground weighing **18g** would have an extraction ratio of **1 : 1.8**.
+---
 
-<a href="https://flathub.org/apps/com.konstantintutsch.Caffeine"><img width="240" alt="Get it on Flathub" src="https://flathub.org/api/badge?locale=en"></a>
+## 📦 Installation
 
-## Showcase
+[<img width="200" alt="Get it on Flathub" src="https://flathub.org/api/badge?locale=en">](https://flathub.org/apps/com.konstantintutsch.Caffeine)
 
+---
+
+## ✨ Showcase
+
+### Light Mode
 ![Light](data/com.konstantintutsch.Caffeine.Screenshot.Light.png)
 
+### Dark Mode
 ![Dark](data/com.konstantintutsch.Caffeine.Screenshot.Dark.png)
