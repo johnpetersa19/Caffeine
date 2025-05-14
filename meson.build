@@ -5,7 +5,7 @@
 project(
      'Caffeine',
             'c',
-        version: '1.0.7',
+        version: '1.1.1',
         license: 'MIT',
   meson_version: '>= 1.3'
 )
@@ -56,7 +56,7 @@ conf.set('localedir', localedir)
 #
 
 gettext_package = project_id
-gresource_file = datadir / project_id + '.gresource'
+gresource_file = datadir / project_id / project_id + '.gresource'
 ui_resource = project_root / 'ui'
 
 conf.set('gettext_package', gettext_package)
@@ -70,8 +70,8 @@ conf.set('ui_resource', ui_resource)
 i18n = import('i18n')
 gnome = import('gnome')
 
-gtk_dep = dependency('gtk4')
-adwaita_dep = dependency('libadwaita-1', version: '>=1.4')
+gtk_dep = dependency('gtk4', version: '>=4.18')
+adwaita_dep = dependency('libadwaita-1', version: '>=1.7')
 
 #
 # Subdirectories

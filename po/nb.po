@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.konstantintutsch.Caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 21:28+0200\n"
+"POT-Creation-Date: 2025-04-17 11:38+0200\n"
 "PO-Revision-Date: 2024-10-15 21:28+0200\n"
 "Last-Translator: Sunniva Løvstad <turtle@turtle.garden>\n"
 "Language-Team: \n"
@@ -19,26 +19,26 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 #. Details
-#: src/application.c:105
+#: src/application.c:113
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr "Kalkuler kaffen din"
 
-#: src/application.c:116
+#: src/application.c:124
 msgid "translator-credits"
 msgstr "Sunniva Løvstad <koffein@turtle.garden>"
 
-#: src/application.c:119
+#: src/application.c:127
 msgid "Dependencies"
 msgstr "Avhengigheter"
 
-#: src/window.c:156
+#: src/window.c:163
 msgid "Ratio copied"
 msgstr "Forhold kopiert"
 
 # This should really be «Caffiene», but since there are no search terms in the translation, I'm translating the name.
 #: data/ui/window.blp:10 data/ui/window.blp:35
-#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:3
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Koffein"
@@ -66,6 +66,10 @@ msgstr "Ingen data"
 #: data/ui/window.blp:91
 msgid "Copy ratio"
 msgstr "Kopier forhold"
+
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:8
+msgid "coffee;recipe;ratio;"
+msgstr ""
 
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:9
 msgid ""

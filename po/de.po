@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 12:35+0200\n"
+"POT-Creation-Date: 2025-04-17 11:38+0200\n"
 "PO-Revision-Date: 2024-10-16 12:35+0200\n"
 "Last-Translator: Konstantin Tutsch <mail@konstantintutsch.com>\n"
 "Language-Team: German\n"
@@ -17,25 +17,25 @@ msgstr ""
 "X-Generator: Gtranslator 47.0\n"
 
 #. Details
-#: src/application.c:105
+#: src/application.c:113
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:7
 msgid "Calculate your coffee"
 msgstr "Berechnen Sie Ihren Kaffee"
 
-#: src/application.c:116
+#: src/application.c:124
 msgid "translator-credits"
 msgstr "Konstantin Tutsch <mail@konstantintutsch.com>"
 
-#: src/application.c:119
+#: src/application.c:127
 msgid "Dependencies"
 msgstr "Abhängigkeiten"
 
-#: src/window.c:161
+#: src/window.c:163
 msgid "Ratio copied"
 msgstr "Verhältnis kopiert"
 
 #: data/ui/window.blp:10 data/ui/window.blp:35
-#: data/com.konstantintutsch.Caffeine.desktop.in.in:4
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:3
 #: data/com.konstantintutsch.Caffeine.metainfo.xml.in.in:6
 msgid "Caffeine"
 msgstr "Koffein"
@@ -64,7 +64,7 @@ msgstr "Keine Daten"
 msgid "Copy ratio"
 msgstr "Verhältnis kopieren"
 
-#: data/com.konstantintutsch.Caffeine.desktop.in.in:9
+#: data/com.konstantintutsch.Caffeine.desktop.in.in:8
 msgid "coffee;recipe;ratio;"
 msgstr "kaffee;rezept;verhältnis;"
 
